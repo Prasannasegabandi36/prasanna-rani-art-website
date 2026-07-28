@@ -10,6 +10,7 @@ const links = [
   { label: "Home", to: "/" },
   { label: "About", to: "/about" },
   { label: "Gallery", to: "/gallery" },
+  { label: "Mehndi", to: "/mehndi" },
   { label: "Mediums", to: "/mediums" },
   { label: "Inspiration", to: "/inspiration" },
   { label: "Contact", to: "/contact" },

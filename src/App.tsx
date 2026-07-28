@@ -5,6 +5,7 @@ import MainLayout from "@/layouts/MainLayout";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Gallery from "@/pages/Gallery";
+import Mehndi from "@/pages/Mehndi";
 import ArtworkDetail from "@/pages/ArtworkDetail";
 import Mediums from "@/pages/Mediums";
 import Inspiration from "@/pages/Inspiration";
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/gallery/:id" element={<ArtworkDetail />} />
+          <Route path="/mehndi" element={<Mehndi />} />
           <Route path="/mediums" element={<Mediums />} />
           <Route path="/inspiration" element={<Inspiration />} />
           <Route path="/contact" element={<Contact />} />
