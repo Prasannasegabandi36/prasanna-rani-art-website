@@ -8,19 +8,19 @@ import { useSeo } from "@/hooks/useSeo";
 
 const stats = [
   {
-    id: 1,
+    id: "1",
     value: 2,
     suffix: "+",
     label: "Years of Practice",
   },
   {
-    id: 2,
+    id: "2",
     value: 120,
     suffix: "+",
     label: "Artworks Created",
   },
   {
-    id: 3,
+    id: "3",
     value: 4,
     suffix: "+",
     label: "Competitions & Exhibitions",
